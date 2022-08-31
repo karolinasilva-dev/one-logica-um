@@ -1,0 +1,54 @@
+<meta charset="UTF-8">
+
+
+<script>
+    //comando para escrever html dentro do js//
+    // var ano = 2016; var (variável) ano = (recebe) 2016//
+    var ano = 2016; // adicionando essa varíavel me possibilita de mudar somente uma parte do código, as demais serão alteradas automaticamente//
+    document.write("Flávio tem " + (ano - 1977) + " anos");
+    document.write("<br>");
+    document.write("Joaquim tem " + (ano - 1996) + " anos");
+    document.write("<br>");
+
+    ano = 2018; // ao reatribuir valor para uma variável que já havia sido declarada, o var não precisa ser declarado novamente //
+    document.write("Barney nasceu em " + (ano - 1976) + " anos");
+    document.write("<br>");
+
+    var n = (3);
+    document.write("O resultado da fórmula é : " + n * (10 / 20)  );
+
+    document.write("<br> <br>");
+
+    var idadeFlavio = 39;
+    var idadeJoaquim = 20;
+    var idadeBarney = 41;
+    //é possível fazer operações matemáticas com variáveis, desde que elas guardem números//
+    
+    var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+    document.write("A média das idades é " + Math.round(media))
+    // a instrução Math.round pede para a math (matemática) round (arredondar) o valor que irá entrar no () "envelope"//
+
+    var nome = "Flávio";
+    //var também recebe nomes//
+
+    document.write("<br> A idade de " + nome + " é " + idadeFlavio);
+    // "a idade de " -> é uma STRING//
+
+    // vídeo 1, módulo 4, iniciante em programação I //
+    
+    document.write("<br><br>");
+
+    var ano = 2016;
+    var puloLinha = "<br>";
+
+    document.write("Flávio tem " + (ano - 1977) + " anos");
+    document.write(puloLinha);
+    document.write("Joaquim tem " + (ano - 1996) + " anos");
+    document.write(puloLinha);
+
+    ano = 2017;
+    document.write("Barney tem " + (ano - 1976) + " anos");
+
+
+</script>

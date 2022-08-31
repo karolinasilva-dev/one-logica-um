@@ -1,0 +1,46 @@
+<meta charset="UTF-b">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function geracoes(frase) {
+
+        document.write(frase + Math.round(media) + " gerações.")
+    }
+
+    var invasao = 1500;
+    
+    var anoAtual = 2022;
+
+    var media = (anoAtual - invasao)/28;
+
+
+    geracoes("Desde o ano de 1500 até o ano atual já se passaram ");
+
+    pulaLinha();
+
+    //resolução do professor//
+    document.write("<br><br><br>")
+
+   
+        function pulaLinha() {
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        var idadeMediaQuandoTemFilhos = 28;
+        var anoAtual = 2016; 
+
+        var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+        mostra(quantidadeDeGeracoes);
+
+</script>
